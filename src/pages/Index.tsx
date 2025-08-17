@@ -19,6 +19,8 @@ import {
 } from "lucide-react";
 
 const Index = () => {
+  console.log("Index component is rendering...");
+  
   const features = [
     {
       icon: Calendar,

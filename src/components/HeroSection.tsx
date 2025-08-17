@@ -4,6 +4,7 @@ import { ArrowRight, Calendar, Mail, Sparkles, Users, Zap, Clock } from "lucide-
 import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
+  console.log("HeroSection component is rendering...");
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-background via-background to-primary/5 overflow-hidden">
       {/* Background Effects */}

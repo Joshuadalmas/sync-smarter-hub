@@ -6,6 +6,7 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
+  console.log("Layout component is rendering...");
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
